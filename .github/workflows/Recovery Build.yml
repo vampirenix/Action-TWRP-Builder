@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/twrpdtgen/android_device_infinix_Infinix-X6711.git'
+        default: 'https://github.com/vampirenix/twrp_device_infinix_X6711_boot.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'vnd_x6711u_h333-user-12-SP1A.210812.016-868252-release-keys'
+        default: 'twrp-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -40,7 +40,7 @@ on:
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'vendorboot'
+        default: 'boot'
 
 jobs:
   build:
